@@ -1,0 +1,28 @@
+\documentclass[../master.tex]{subfiles}
+
+\begin{document}
+
+This is inside the results.
+
+Here are some figures:
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{sdal-logo}
+\caption[Short caption]{This is a really really crazyily long caption}
+\label{fig:sdal-logo1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\linewidth]{sdal-logo}
+\caption[HERE!]{I want this figure HERE!}
+\label{fig:sdal-logo2}
+\end{figure}
+
+Figure \ref{fig:sdal-logo1} lets \LaTeX decide where the figure should go.
+
+Figure \ref{fig:sdal-logo2} places right after the text "Here are some figures"
+
+
+\end{document}

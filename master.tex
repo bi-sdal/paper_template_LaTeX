@@ -1,0 +1,47 @@
+\documentclass[10pt,letterpaper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1.00in, right=1.00in, top=1.00in, bottom=1.00in]{geometry}
+
+\usepackage{subfiles}
+\graphicspath{{./results/}}
+
+\author{Daniel Chen}
+\title{My Wicked Awesome Paper}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Below is the Introduction.
+
+\subfile{introduction/introduction.tex}
+
+\section{Methods}
+
+Below are the methods.
+
+\subfile{methods/methods.tex}
+
+
+\section{Results}
+
+Below are the results.
+
+\subfile{results/results.tex}
+
+
+\section{Discussion}
+
+Below is the discussion.
+
+This is a reference from the master:  Figure \ref{fig:sdal-logo2} is placed ``here''
+
+\subfile{discussion/discussion.tex}
+
+
+\end{document}
