@@ -7,41 +7,29 @@
 \usepackage[left=1.00in, right=1.00in, top=1.00in, bottom=1.00in]{geometry}
 
 \usepackage{subfiles}
-\graphicspath{{./results/}}
+\graphicspath{{images/}{../../images/}}
 
 \author{Daniel Chen}
 \title{My Wicked Awesome Paper}
 
 \begin{document}
-\maketitle
-
-\section{Introduction}
-
-Below is the Introduction.
-
-\subfile{introduction/introduction.tex}
-
-\section{Methods}
-
-Below are the methods.
-
-\subfile{methods/methods.tex}
-
-
-\section{Results}
-
-Below are the results.
-
-\subfile{results/results.tex}
-
-
-\section{Discussion}
-
-Below is the discussion.
-
-This is a reference from the master:  Figure \ref{fig:sdal-logo2} is placed ``here''
-
-\subfile{discussion/discussion.tex}
-
-
+	
+	\maketitle
+	
+	\section{Introduction}
+	
+	\subfile{sections/introduction/introduction}
+	
+	\section{Methods}
+	
+	\subfile{sections/methods/methods}
+	
+	\section{Results}
+	
+	\subfile{sections/results/results}
+	
+	\section{Discussion}
+	
+	\subfile{sections/discussion/discussion}
+	
 \end{document}
